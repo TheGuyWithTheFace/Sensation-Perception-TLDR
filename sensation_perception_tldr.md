@@ -178,6 +178,77 @@ Disclaimer: I created this as my own study tool. I made aggressive, opinionated
     2. Bipolar Cells - transmits light data from photoreceptors to ganglions
     3. Ganglion Cells - recieves visual info via bipolar cells and amacrins,
        sends info to brain
+       * On-center, off-surround - Responds to light in center, dark outside
+       * Off-center, on-surround - Responds to dark center, light outside
+       * ^Both emphasize edges and outlines in vision
+       * **Receptive Field**: "what makes a neuron fire"
+          * Function neuron uses to add up inputs
+          * `light level * center weight + light level * surround weight =
+            spike`
+       * Both ON and OFF ganglions have 2 types:
+          * **Parvocellular**: "small", processes shape, color
+          * **Magnocellular**: "big", processes motion
  * Weird thing: Light has to pass through a bunch of stuff to reach
    photoreceptors (unlike cephalopods)
+ * **Luminance Adaptation**: Adapting to different light levels
+    * Humans can adapt to 6 orders of magnitude light difference (!!!)
+    * 2 Mechanisms:
+       * Pupil dialation
+          * Pupil gets bigger or smaller (2mm vs 8mm, 16x more light)
+       * Photoreceptor pigment levels
+          * More light -> photopigment gets "used up"
+             * less available phtopigment=retina is less sensitive
+    * Don't need to estimate light level, just need to see objects
+       * Rely on _contrast_, differences in light
+       * C = difference in light level / overall light level
+       * Better for retina to send info about local differences in light
+
+### Eye-Brain Things
+ 1. Signals go from eyes to brain through optic nerve
+ 2. Nerves cross at optic _chiasm_
+ 3. **Lateral Geniculate Nucleus (LGN)** (in the thalamus)
+    * One on each side of brain
+    * Represents vis. field
+    * Has eye-specific layers
+    * has M and P layers
+    * **Ipsilateral**: Same side of body
+    * **Contralateral**: Opposite side of body
+    * Responds to one eye or the other, _never both_
+ 4. **Primary Visual Cortex (V1)** (aka Striate cortex)
+    * Everything else: "pre-cortical"
+    * First place in cortex where vis. info actually processed
+    * Responds to _both eyes_
+        * But neurons prefer one eye or the other (aka okular dominance)
+    * Circular receptive fields (like Ganglions) replaced by stripe receptive
+      fields
+        * Respond to bars in specific orientations or moving lines
+        * **Simple Cells**: Prefer light or dark bars
+        * **Complex Cells**: Respond to light or dark
+    * Vertical arrangements of neurons (aka columns)
+        * Columns in cortex have same:
+           * Preferred dominant eye
+           * Preferred Orientation
+        * **Hypercolumn**: 1mm block, has everything needed to see certain
+          small part of world
+           * Every possible orientation
+           * Left and right eyes
+ * **Acuity**: Finest Visual detail that can be registered
+    * _Snelen E test_: uses grating of strokes on capital E.
+    * Eye doctors: use letters to measure your distance/avg person's distance
+      (20/20, etc.)
+    * Vision scientists: visual angle of 1 cycle (light/dark pattern) of finest
+      grating you can see
+    * **Spacial Frequency**: # bars per unit length
+    * **Fourier Decomposition**:
+       * V1 breaks images into sum of sine waves
+       * Strongest response from ganglion cells when peaks/troughs line up with
+         on-center, off-surround (or vice versa)
+ * **Topography**: Mapping of objects in space onto V1 
+    * Is contralateral, so each field repped in opposite hemisphere
+ * **Cortical Magnification**: V1 gives more attention to center of field
+   (fovea)
+    * Misnomer because magnification already happens in retina
+ * **Adaptation**: Response diminishes to sustained stimulus
+    * Can "knock-out" groups of neurons by activating strongly
+    * Can adapt to spatial frequency
 
