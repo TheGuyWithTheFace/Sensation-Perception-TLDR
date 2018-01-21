@@ -7,10 +7,6 @@ Disclaimer: I created this as my own study tool. I made aggressive, opinionated
 (That said, suggestions, issues, and pull requests are always welcome!)
 
 
-## Things not Included
- * Ways light can move (refraction, diffraction, etc)
-
-
 ## General Terms
  * **Perception**: Process for extracting info via the senses, forming internal
    representations of the world
@@ -77,11 +73,11 @@ Disclaimer: I created this as my own study tool. I made aggressive, opinionated
     * 1 lbs change in 20 lbs weight is as noticeable as .2 lbs change in 4 lbs
        weight
     * Derived from Fechner's Law
- * **Weber Fraction**: ratio of change magnitude / stimulus magnitude
+ * **Weber Fraction**: Ratio of change magnitude / stimulus magnitude
    required to detect change 
     * Is the same regardless of stimulus size
- * **Steven's Power Law**: Sensation intensity = k * (magnitude of physical
-   stimulus)^(constant that depends on stimulus)
+ * **Steven's Power Law**: `Sensation intensity = k * (magnitude of physical
+   stimulus)^(constant that depends on stimulus)`
     * Prof thinks this is less important than Weber-Fechner law
  * **Just-Noticeable Difference** (aka JND): Smallest magnitude change that can
    be detected
@@ -200,7 +196,7 @@ Disclaimer: I created this as my own study tool. I made aggressive, opinionated
              * less available phtopigment=retina is less sensitive
     * Don't need to estimate light level, just need to see objects
        * Rely on _contrast_, differences in light
-       * C = difference in light level / overall light level
+       * `C = difference in light level / overall light level`
        * Better for retina to send info about local differences in light
 
 ### Eye-Brain Things
@@ -749,7 +745,7 @@ Disclaimer: I created this as my own study tool. I made aggressive, opinionated
     * **Microvilli**: Projections on tips of taste buds, extend into taste pore
        * Sites that bind to taste substances
        * Not hairs, are extensions of cell membrane
- * # of taste buds varies a lot (4x difference)
+ * \# of taste buds varies a lot (4x difference)
     * High variation unique among senses
  * _Supertaster_: High density of Fungiform papillae
     * Most intense taste sensations
