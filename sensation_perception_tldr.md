@@ -252,3 +252,94 @@ Disclaimer: I created this as my own study tool. I made aggressive, opinionated
     * Can "knock-out" groups of neurons by activating strongly
     * Can adapt to spatial frequency
 
+### Beyond V1: Object Vision
+ * Identifying objects
+ * No one knows how this works
+ * **View-dependent model**: Only recognizes particular views of an object
+   (house from the front, etc.)
+    * Not enough neurons for every possible view
+    * Doesn't work
+ * **Middle Vision**: After basic features extracted, before object
+   recognition
+    * Edges and surfaces
+    * Determines grouping of regions into objects
+    * "Edge detection" (and Fourier Analysis) are FAILING theories of what V1
+      does.  Sad!
+    * **Illusory contour**: Contour percieved even though no edge present
+    * **Structuralism**: Perception built up from "atoms" of sensation (color,
+      orientation, etc.) - doesn't fit because of things like illusory contours
+    * **Gestalt psychology**: Whole is greater than sum of parts
+       * **Gestalt Grouping**: Set of rules for when elements in image appear
+         to group together
+          * Based on _similarity_ and _proximity_
+          * _Good continuation_: Elements group if they're on the same contour
+          * Dynamic grouping
+             * _Common fate_: Elements group if moving in same direction
+             * _Synchrony_: Elements group if changing at the same time
+          * Ground assignment
+             * _Surroundedness_: Surrounded region likely to be ground
+             * _Size_: Smaller region likely to be figure
+             * _Symmetry_: Symmetrical region likely figure
+             * _Parallelism_: Regions with || contours likely figure
+             * _Extremal Edges_: If edges are shaded such that they seem to
+               recede, likely figure.
+       * Accidental viewpoint: Regularty in visual image not present in real
+         world
+          * Visual System _doesn't_ accept interpretations that assume
+            accidental viewpoints
+          * Opposite (non-accidental viewpoint): Interpretation doesn't change
+            if you move the camera a bit
+ * Object recognition not entirely viewpoint invariant
+    * Faces harder to recognize when inverted
+    * The more something is rotated, the harder it is to recognize
+ * Facts contstraining object recognition models:
+    1. Visual processing happens in 2 streams (after V1)
+       * What vs Where info
+    2. Object recognition is _fast_
+       * Suggests **Feed-forward process**
+          * Computation carried out 1 step after another
+          * No need for feedback from later stage
+ * Object Recognition Models
+    * **Pandemonium model**
+       * Perceptual "committee" of "demons" (neurons)
+       * Each level a different brain area
+          * Decision demon, cognitive demons, feature demons
+          * Each demon is a possible letter, edge, etc.
+    * **Hierarchical "constructive" models**
+       * Explicit structure of how parts are combined to form image as whole
+       * Committees with specialized members
+
+### Color Vision
+ * Lack of color vision != black+white
+ * Psychophysical property, not physical
+ * **Spectral**: Referring to wavelength
+ * **Illuminant**: Light source
+ * **Power Spectrum**: Curve of energy at each frequency of light
+    * Red things have high energy values at longer (red) wavelengths, etc.
+ * **Absorbtion Spectrum**: Response (aka light absorbtion) of photoreceptor as
+   function of wavelength
+ * 3 Cone classes
+    * _S_ - Short (blue)
+    * _M_ - Medium (green)
+    * _L_ - Long (Red)
+ * **Univariance**: Infinite set of wavelength+intensity combinations can get
+   same respont from S, M, and L cones
+    * **Metamers**: Illuminants physically distinct, perceptually the same
+    * This is how display LEDs work
+ * **Color Space**: 3D space describing all color percepts
+    * RGB: Outputs of Long, Medium, Short wavelengths
+    * HSB: Hue, Saturation, and Brightness
+ * **Newton's Spectrum**:
+    * ROY G BIV
+    * He thought 7 kinds of light -> 7 kinds of receptors
+ * **Opponent color theory**:
+    * Perception based on output of 3 channels
+    * Each channel based on opponency between 2 colors
+       * Some Ganglion Cells have fields with color opponency (instead of rod
+         black vs white)
+          * Red-Green (L-M) (L center, M surround)
+          * Red-Green (M-L) (M center, L surround
+          * Blue-Yellow (S-(M+L)) (S center, L and M surround)
+ * **Afterimage** (aka negative): Image seen after stimulus removed
+    * Opposite of original stimulus (complementary)
+
