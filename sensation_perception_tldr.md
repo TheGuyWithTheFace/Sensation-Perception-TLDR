@@ -342,4 +342,28 @@ Disclaimer: I created this as my own study tool. I made aggressive, opinionated
           * Blue-Yellow (S-(M+L)) (S center, L and M surround)
  * **Afterimage** (aka negative): Image seen after stimulus removed
     * Opposite of original stimulus (complementary)
+ * **Color Constancy**: Tendency of surface to appear same color despite wide
+   range of illuminants
+    * Keeps daylight vs candles, types of lightbulbs, etc. from changing color
+      of surroundings too much
+    * Caused "the dress" incident
+       * From precept: white+black vs blue+gold depended on what time of day
+         viewer thought it was
+ * **Color mixing**
+    * _Additive_: Mixing of lights
+       * 2 lights arrive at eye -> effects are added
+    * _subtractive_: Mixing of paints
+       * 2 pigments mix, light shining on surface subtracted by both A and B,
+         so only the difference is reflected
+       * Alt. Example: Light through multiple filters
+ * **Color blindness**
+    * **Dichromat**: Can only see 2 colors
+       * 3 types:
+          * **Protanopia**: Absence of L-cones
+          * **Deuteranopia**: Absence of M-cones (most common)
+          * **Tritanopia**: Absence of S-cones (least common)
+    * **Monochromat**: True color blindness, world is black and white
+    * **Cone Monochromat**: Only have one cone type (true b/w)
+    * **Rod Monochromat**: World is black/white AND impaired in bright light
+
 
