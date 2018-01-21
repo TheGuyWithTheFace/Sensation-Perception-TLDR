@@ -365,5 +365,257 @@ Disclaimer: I created this as my own study tool. I made aggressive, opinionated
     * **Monochromat**: True color blindness, world is black and white
     * **Cone Monochromat**: Only have one cone type (true b/w)
     * **Rod Monochromat**: World is black/white AND impaired in bright light
+ * **Light Sensitivity**
+    * _Photopic_: Cones active, rods "saturated"
+       * Sunlight, brihgt indoor lighting
+    * _Scotopic_: Rod vision, too dim for cones
+       * Moonlight, extremely dim indoor lighting
+       * No colors because cones not active
+
+### Space + Depth Perception
+ * **Depth Perception**: How far away stuff is
+    * Distance vs size is ambiguous
+ * Having 2 eyes is nice
+    * Binocular Summation: Pool 2x light
+    * Better field of view
+    * Compare images for depth perception
+ * Monocular Depth Cue: Cue that works with just one eye
+    * **Occlusion**: One object obstructs view of part of the other
+    * **Metrical Depth Cue**: Gives quantitative info about 3D distance
+       * e.g. relative sizes of objects that are really the same size
+    * Shadows
+    * Texture gradients
+    * Height in plane (makes size+texture more influential as well)
+    * Linear perspective
+       * Parallel lines converging (perspective projection)
+    * Motion Parallax
+       * Nearby objects move by faster than far away objects
+    * Accomodation blur (aka "depth from focus")
+       * Something is blurry = in different depth plane from what eye is
+         focusing on.
+ * Binocular Depth Cue: Relies in info from both eyes
+    * **Vergence Angle**: Angle between eyes (object is vertex)
+    * **Binocular Disparity**: Difference between 2 retinal images
+    * **Stereopsis**: Depth perception from binocular disparity info (3D
+      movies)
+       * Potential defects:
+          * **Strabismus**: Eyes not aligned -> different images on fovea
+          * **Stereoblindness**: Inability to use binocular disparity as depth
+            cue
+    * **Disparity**: Difference between points in L and R eye images
+    * **Horopter**: Circle at points at 0 disparity (corresponding parts of 2
+      retinas)
+    * **Correspondence Problem**: Which points in left eye go to which points in
+      right eye?
+       * Happens with multiple identical looking objects
+       * Brain has disparity-tuned neurons
+          * **Panum's fusional area**: Only certain range of disparities that
+            brain can fuse
+
+### Motion Perception
+ * Motion = Orientation in space-time
+ * **Apparent Motion**: Motion percept from rapid display of stationary images
+   in different locations
+    * Like movies
+    * Triggered by Reichardt detector
+       * 2 neurons, receptive field spatially separated (different locations),
+         one with a time delay
+          * Triggered by something passing one neuron, then the other
+    * **(motion) Correspondence Problem**: "Which points in frame 1 are the
+      same objects in frame 2?"
+       * Causes wheels in movies appearing to spin backwards
+    * **Aperture problem**: When moving object viewed through aperture,
+      direction is ambiguous
+ * **Motion effereffect** (aka MAE but not the major): Illusion of motion after
+   prolonged exposure to moving stimulus
+    * Motion always _opposite_ direction of stimulus
+    * aka "waterfall illusion" - stare at waterfall, afterwards things appear
+      to move upwards
+ * **Interocular transfer**: Transfer of effect (like adaptation) from one eye
+   to other
+    * MAE exhibits it
+    * Happens because input from both eyes is combined in V1
+ * Area MT: Medial Temporal (V5)
+    * Detects motion
+    * When stimulated with shock, monkeys percieved motion
+ * Eye movements
+    * Can also cause object motion, important to distinguish
+    * **Comparator**: Compensates for eye movement in vision
+       1. Recieves copy of order from motor system
+       2. Subtracts _expected motion_
+    * Types of movement
+       * **Smooth pursuit**: Eyes smoothly follow moving target
+       * **Saccade**: Rapid movement, changes fixation from one locatoin to
+         another
+          * Saccadic suppression: Visual sensitivity reduced during saccade
+       * **Vergence**: 2 eyes move opposite directions (such as towards nose)
+       * **Reflexive**: Involuntary
 
 
+## Hearing
+ * Sound caused by sine waves of pressure from vibrating things
+ * Physical qualities of sound (and corresponding psychological properties)
+    * **Frequency**: # times / second that pressure pattern repeats
+       * **Pitch**: How high or low sound is
+       * Measured in Hz: 1Hz=1 cycle/second
+    * **Amplitude**: Magnitude of displacement of pressure waves
+       * **Loudness**: Percieved intensity
+       * Measured in Decibel (dB)
+          * Ratio of sound pressure level (SPL) to "barely detectable" sound
+          * 0dB = barely detectable
+          * Each increment of +20dB = increase in SPL by 10x
+             * +40dB -> SPL increases by 100
+ * **Sine Wave**: Simplest kind of sound - pressure/time is sine function
+    * **Period**: Time for 1 cycle of repeating wave (frequency = 1 / period)
+    * **Phase**: Relative position of 2+ sine waves
+       * 360 degrees of phase in 1 period
+    * Unnatural kind of sound though
+       * Complex, natural sounds = sum of many sine waves
+    * **Fourier analysis**: Can be used to divide any sound into sum of sine
+      waves
+    * **Fourier spectrum**: Shows amplitude for each fequency present in a
+      sound
+
+### The Auditory System
+ * Outer Ear: Collects, transforms sound
+    * **Pinnae** First collects sound, funnels into **ear canal**.
+    * Length, shape of canal enhances certain frequencies
+ * Middle Ear: 3 bones, amplifies sound
+    * **Tympanic membrane** (aka eardrum): border between outer and middle ear,
+      large surface area pushes on ossicles to make sound louder
+    * **Ossicles**: Smallest bones in body, hinged joints act as levers,
+      amplify sound
+       * **Malleus**: recieves vibrations from eardrum
+       * **Incus**: In the middle
+       * **Stapes**: Connects incus to oval window of cochlea
+    * **Oval Window**: Border between middle and inner ear
+    * Tiny muscles tighten to reduce amplification of loud sounds
+       * 200ms delay, not fast enough to protect against gunshots etc
+ * Inner Ear: Transduces sound (mechanical energy to neural responses)
+    * **Cochlea**: Spiral structure filled with fluids
+       * **Place code**: Tuning of different parts of cochlea to different
+         frequencies
+       * Breaks down sound by frequency
+       * Transduction (mechanical -> neural)
+       * 3 canals (in order reached by sound)
+          * **Vestibular canal**: Extends from oval window at base of cochlea
+            to _helicotrema_ at apex
+          * **Tympanic canal**: From round window at base to helicotrema at
+            apex
+          * **Helicotrema**: Cochlear apex
+          * **Basilar membrane**: Separates middle and tympanic canals
+          * **Middle canal**: Between tympanic and vestibular
+       * **Organ of Corti**: Hairs+dendrite nerves on basilar membrane of
+         cochlea
+          * **Translate basilar membrane movements into neural signals
+          * Hair cells in 4 rows
+          * **Stereocillia**: Hairlike extensions on tips of hair cells,
+            trigger neurotransmitters when flexed
+             * Connects to neighbor by filament called **tip link**
+          * Moved by **Tectorial membrane**, which extends into middle canal
+            * Floats above inner hair cells, touching outer hair cells
+            * **Inner hair cells**: Conveys almost all sound info to brain
+            * **Outer hair cells**: Conveys info _from_ brain
+               * Elaborate feedback system
+               * Amplifies sounds by increasing deflections of basilar membrane
+    * Mechanical energy flow:
+       1. Vibrations cause stapes to push/pull oval window
+       1. Go through vestibular canal
+       2. Pressure transmitted through helicotrema
+       3. Back to cochlear base through tympanic canal
+       4. Absorbed by round window
+    * Auditory transduction:
+       1. Standing wave in basilar membrane
+       2. Movement of organ of corti + tectoral membrane (amplified by outer
+          hair cells)
+       3. Inner hair cell displacement -> tip links -> channel opening
+ * **Frequency selectivity**: Clearest when sounds are very faint
+ * Auditory nerve: Fibers stimulated by inner hair cells
+ * Info flow:
+    1. **Cochlear nucleus**: First brain stem nucleus auditory nerves synapse to
+    2. **Superior olive**: Brainstem region where inputs from both ears converge
+    3. **Inferior colliculus**: Midbrain nucleus
+    4. **Medial geniculate nucleus** (aka MGN): relays auditory signals to
+      cortex
+    5. **Primary auditory cortex** (aka A1): First cortical area for processing
+      sound
+    6. **Belt & parabelt areas**: Beyond A1, neurons respond to more complex
+       sound characteristics
+    * Side note: Auditory system has lots of processing _before_ A1, Visual
+      system has lots of processing _after_ V1
+  * **Tonotopic organization**: Neurons ordered (spatially) in order of
+    preferred frequency
+     * Starts in cochlea
+     * Maintained all through to A1
+  * **Phase locking**: Neuron firing locked to period of sound wave
+     * Example of **temporal code**
+  * **Psychoacoustics**: Study of the psychological correlates to physical
+    dimensions of acoustics
+  * **Masking**: Using second sound to make detection of another sound hard
+  * **Critical Bandwidth**: Range of frequencies conveyed within a channel in
+    auditory system
+     * How to measure bandwidth of frequency channels
+        1. Present tone on top of noise background
+        2. Start with narrow band of noise
+        3. Increase noise bandwidth, measure threshold for tone detection
+        4. Keep increasing noise bandwidth until it doesn't cause decrease in
+           sensitivity (increase in threshold)
+
+### Detecting sound location
+ * 3 planes:
+    * Horizontal (aka azimuth)
+    * Vertical (aka elevation)
+    * Distance
+ * Timing differences
+    * **Interaural time differences** (aka ITD): Difference in time between
+      sound arriving at one ear vs the other
+    * **Medial superior olive** (MSO): Place where ITDs are processed
+    * Good for low frequencies
+ * Loudness differences
+    * **Interaural loudness differences** (aka ILD): Difference in level
+      (intensity) between sound arriving at one ear vs the other
+    * For frequencies >1000Hz, head blocks some energy
+    * Correlates with angle of source, not as reliable as ITDs
+    * **Lateral superior olive**: Station in brain stem where both ears
+      detect ILDs
+    * Good for high frequencies
+ * **Cone of confusion**: Region of space where all sounds produce same ITDs
+   and ILDs
+ * **Head-related transfer function**: (HRTF) How pinnae, ear canals, etc
+   change intensities of different frequencies
+    * Unique to individual
+    * Helps locate sounds
+    * Hofman 1998: Inserted molds into pinnae, screwed up sound localization
+ * **Auditory distance perception**:
+    * **Loudness**: Decreases with distance (inverse square law)
+    * **Spectral composition**: Higher frequencies lose energy faster than loer
+      frequencies
+       * Only works for long distances
+
+### Properties of Complex Sounds
+ * **Harmonics**: Objects vibrate and "resonant frequencies"
+    * Most die down, some persist
+    * Auditory system sensitive to harmonics (eg guitar string, voices)
+    * If fundamental (strongest, original) of harmonic removed, listeners still
+      hear its pitch
+       * Only 3 harmonics needed for this
+ * **Timbre**: Psychological sensation, listener can use to judge 2 sounds with
+   same loudness and pitch are dissimilar
+    * Harmonics and other high frequencies
+    * Perception depends on context
+ * **Source segregation**: Processing auditory scene of multiple sounds into
+   separate sources
+    * "Cocktail party effect": Can "select" conversation even when many are
+      present
+       * Same voice speaking to both ears -> very difficult
+       * Same voice to separate ears -> easy
+       * However, subjects didn't/couldn't:
+          * identify single phrase from non-attended ear
+          * identify language
+          * identify backwards recording
+       * DID notice change from male to female speaker
+       * Implies we can separate sounds streams, but can't attend to multiple
+         at same time
+ * Principle of _good continuation_: Can hear sound despite interruptions
+   - brain "smoothes out" encoded signals
+    * Adding noise can make speech easier to understand than silence in gaps
