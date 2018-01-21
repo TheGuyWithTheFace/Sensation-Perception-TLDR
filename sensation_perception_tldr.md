@@ -619,3 +619,164 @@ Disclaimer: I created this as my own study tool. I made aggressive, opinionated
  * Principle of _good continuation_: Can hear sound despite interruptions
    - brain "smoothes out" encoded signals
     * Adding noise can make speech easier to understand than silence in gaps
+
+### Bayesian Perception
+ * Based on probabilities
+ * Perception is _ill-posed_ problem
+    * No unique solution (What's going on is ambiguous)
+    * Infinite 3D objects can make the same 2D retinal image
+    * Need more info to make it _well-posed_
+       * Probability based on past results helps
+ * **Bayes' rule**: `P(B | A)` is proportional to `P(A | B) * P(B)`
+    * Applies to perception:
+       * _Posterior_: Resulting beliefs about the world -
+         P(What's in the world | Sense data)
+       * _Likelihood_: Determined by laws of physics, many are possible -
+         P(Sense Data | What's in the world)
+       * _Prior_: Past experience of what's in the world - P(world)
+       * Posterior = Likelihood * Prior
+ * Past experience causes our brain to assume things
+    * Example: Hollow Face illusion - brains are well trained to assume objects
+      (like faces) are convex
+
+
+### Olfaction
+ * Chemical Senses
+    * **Olfaction**: Smell
+    * **Gustation**: Taste
+ * **Odor**: Smell sensation of a particular quality
+ * **Odorants**: Chemical compounds (not all compounds is odorant)
+ * Our sense of smell not as good as other animals (dogs have 100x more
+   receptors)
+ * Bi-nostril sniffing gives us left-right info
+    * Airflow better on one side than the other due to slight swelling
+       * Switches off several times per hour
+       * Odorants sorb accross mucous at different rates
+          * "High-sorbtion": Small response with low airflow, large with high
+            airflow
+          * "Low-sorbtion": Large response with low airflow, small with high
+            airflow
+          * Implication: Odorants smell different in each nostril!
+
+ * **Olfactory cleft**: Space at back of nose air flows into
+ * **Olfactory epithelium**: Mucous that detects odorants, is inside olf. cleft
+    * "Retina of the nose"
+    * 3 cell types
+       * **Supporting Cells**: Metabolic + physical support to OSNs
+       * **Basal cells**: Precursors to OSNs
+       * **Olfactory sensory neurons** (aka OSNs): Main cell type in olfactory
+         epithelium
+          * Only sensory receptors that make direct contact with physical
+            stimulus
+          * Slow response, thinnest and slowest axons in body
+    * **Cilia**: Hairlike protrusions on OSN dendrites
+       * Have receptors for odorant molecules
+       * Do signal transduction
+    * **Olfactory receptor**: Region on cilia where molecules bind
+       * 7 or 8 molecules binding required to initiate action
+ * **Cribiform plate**: Bony structure, separates nose from brain
+    * OSN axons pass through tiny holes
+ * **Mitral cells**: Main output neurons from olfactory bulb
+ * **Glomeruli**: Conglomerates containing incoming axons of OSNs
+    * Each OSN goes to 2 glomeruli
+ * **Olfactory bulb**: Bluebberry-sized extension of brain above the nose
+    * First processes olfactory info
+    * 2 bulbs, one for each nostril
+ * **Primary olfactory cortex**: First cortical area to process olfactory info
+ * **Limbic system**: Involved in emotion + memory
+    * Olfaction (uniquely) is _directly_ connected
+    * Many subsiquent conncetions to midbrain
+ * Olfaction doesn't have topography like other senses
+ * Genetic stuff
+    * All mamals have same 1000 genes for smell detection
+    * **Pseudogenes**: Smell gene is non-functional
+    * Dogs+Mice: ~20% pseudogenes
+    * Humans: ~60-70% pseudogenes
+    * Individuals have different numbers of pseudogenes, causes differences in
+      smell sensitivity
+ * Perception Theories
+    * **Vibration theory** (defunct): Every smell has vibration frequency,
+      molecules with same frequency smell the same
+    * **Shape-pattern theory** (dominant): Odorants binding in epithelium
+      causes specific neuron firing pattern
+ * **Stereoisomers**: Molecules are mirror image rotations
+    * Contain the same atoms
+    * Smell completely different
+    * Can't be explained by vibration theory
+ * **Anosmia**: Inability to smell
+    * **Specific anosmia**: Inability to smell a specific compound
+       * 50% has anosmia to androstenone
+       * _Can_ be explained by shape-pattern theory
+ * Patterns are important
+    * Look at pattern of activity across many receptor types
+    * Intensity of odorant changes which receptors are activiated
+    * Time order matters as well
+ * **Odor hedonics**: "liking" of odor perception
+    * Scales of _pleasantness_, _familiarity_, _intensity_
+    * Familiarity and intensity:
+       * Pleasantness: duh
+       * Familiarity: Smells like odors we've smelled before
+       * Intensity: More complicated
+    * Nature vs Nurture
+       * Consensus; Nurture
+       * Infants not annoyed by sweat, feces, doesn't discriminate banana from
+         rotten food
+       * Americans like wintergreen, english hate it
+       * US Army tried to make stinkbomb, couldn't find universally disgusting
+       * Japanese hate cheese, Americans dislike Natto
+       * Evolution argument: _Generalists_ (us and roaches) don't need smell
+         aversion to predators
+       * **Learned taste aversion**: Avoidance of flavor after it makes you ill
+          * From smell, not taste
+ * Memory
+    * Memories triggered by odors more distinctive
+    * _Not_ more accurate
+
+
+## Taste
+ * **Taste**: Sensations from receptors on tongue and roof of mouth
+ * **Flavor**: Combination of taste and smell
+ * **Retronasal olfactory sensatoin**: Sensation of odor when eating
+    * Chewing/swallowing force odorant in mouth behind nose palate
+    * Percieved as originating in mouth
+    * Brain blocks olfactory contribution to taste unless taste receptors also
+      report something
+ * Tongue is "retina" of gustation
+    * **Papillae**: bumps on tongue
+       * **Fungiform**: Taste buds within
+       * **Filliform**: In front of tongue, no taste, spoon-like in cats
+       * Contian _taste buds_ and _taste receptor cells_
+    * **Microvilli**: Projections on tips of taste buds, extend into taste pore
+       * Sites that bind to taste substances
+       * Not hairs, are extensions of cell membrane
+ * # of taste buds varies a lot (4x difference)
+    * High variation unique among senses
+ * _Supertaster_: High density of Fungiform papillae
+    * Most intense taste sensations
+ * **Tastant**: Any stimulus that can be tasted
+ * 4 tastes:
+    * Ions enter cell
+       * Salty
+          * Made of charged particles (cation, anion)
+          * Sensitivity varies (low salt diet -> more sensitive to salt)
+       * Sour
+          * Acidic substances
+          * High concentrations can damage you
+    * Tastant binds to cell receptor
+       * Sweet
+          * From sugars (*crose)
+          * Single receptor for all sweet perception
+       * Bitter
+          * Quinine is typical substances
+          * Often poisonous
+    * Each taste bud can detect multiple tastants (what you learned in middle
+      school is wrong)
+    * Umami: 5th taste?
+       * From MSG
+       * Not super perceptable
+       * Not everyone reacts in same way
+       * May bind to gut instead of tongue
+ * Unlike smell, infants have innate preference for certain tastes
+    * Could be evolutionary - need salt+sugar, sour+bitter can harm
+ * Spiciness: Nothing in nature likes it
+    * Detected by pain receptors as capsacin burns mouth, not taste
