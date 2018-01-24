@@ -319,7 +319,7 @@ Disclaimer: I created this as my own study tool. I made aggressive, opinionated
     * _M_ - Medium (green)
     * _L_ - Long (Red)
  * **Univariance**: Infinite set of wavelength+intensity combinations can get
-   same respont from S, M, and L cones
+   same responce from S, M, and L cones
     * **Metamers**: Illuminants physically distinct, perceptually the same
     * This is how display LEDs work
  * **Color Space**: 3D space describing all color percepts
